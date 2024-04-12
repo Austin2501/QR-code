@@ -1,0 +1,55 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 20%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Limit container width for larger screens */
+    margin: 10% auto 20px; /* Adjusted margin for centering */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.5rem; /* Adjusted font size for better readability */
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 300;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    font-size: 1rem; /* Adjusted font size for better readability */
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 80%; /* Adjusted width for smaller screens */
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 70%; /* Adjusted width for tablets and smaller laptops */
+    }
+}
